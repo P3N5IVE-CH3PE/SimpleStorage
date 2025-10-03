@@ -21,7 +21,7 @@ mapping(string => uint256) public nameToFavoriteNumber;
 
 // Person public Satoshi = Person({favoriteNumber:21000000, name: "Satoshi"});
 
-function store(uint256 _favoriteNumber) public {
+function store(uint256 _favoriteNumber) public virtual {
     myfavoriteNumber = _favoriteNumber;
 }
 
